@@ -312,12 +312,28 @@ Then to compile the test driver program, use
 
 \mintinline{text}{gcc -o colorUtilsTester colorUtils.c colorUtilsTester.c}
 
+Ensure all of your tests pass.
+
+Compile the imageDrive file using 
+    
+\mintinline{text}{gcc -lm -std=c99 -o imageDriver imageDriver.c imageUtils.c colorUtils.c}
+    
+Then run the program with 
+    
+\mintinline{text}{./imageDriver huskers.png output.png 1}
+    
+Take a look at the file created in your lab directory called output.png. You can experiment with other modes (the integer at the end of the command. Accepts values 1-4), or even with your own images.
+
 \section{Advanced Activity (Optional)}
 
-Write a few more functions in the \mintinline{c}{orderStatistics.c} program.  First,
+\begin{enumerate}
+    \item Write a few more functions in the \mintinline{c}{orderStatistics.c} program.  First,
 write a function that gets the \emph{median} of a list of elements.  However, the
 function should \emph{not} make changes to the array.  Instead, write additional
 functions that create a \emph{copy} of the array and sorts the copy so that it can
 find the median element.  
+    
+\end{enumerate}
+
 
 \end{document}
