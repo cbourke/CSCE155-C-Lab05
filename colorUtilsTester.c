@@ -20,11 +20,8 @@ int isClose(double a, double b);
 int main(int argc, char **argv) {
 
   int reportPass = 0;
-  if(argc == 2) {
-    printf("Usage: %s [--passed] - optional final argument to report number of passing test cases as the exit code.", argv[0]);
-    if( strcmp(argv[argc-1], "--passed") == 0) {
-      reportPass = 1;
-    }
+  if( strcmp(argv[argc-1], "--passed") == 0) {
+    reportPass = 1;
   }
 
   int r, g, b, c;
