@@ -260,9 +260,8 @@ which produces an executable program called `colorUtilsTester`
 
     Be sure your program passes all tests to get credit.
 
-2.  Even if you worked with a partner, you are *both* required
-    to submit all files.
-
+2.  If you are working as a pair, be sure to follow the course
+    instructions so you both get credit.
 
 # Advanced Activity (Optional)
 
