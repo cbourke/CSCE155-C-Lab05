@@ -250,18 +250,13 @@ which produces an executable program called `colorUtilsTester`
 
 # Handin/Grader Instructions
 
-1.  Hand in your completed files:
+Hand in your completed files:
 
-    -   `colorUtils.c`
+-   `colorUtils.c`
+-   `colorUtils.h`
+-   `colorUtilsTester.c`
 
-    -   `colorUtils.h`
-
-    -   `colorUtilsTester.c`
-
-    Be sure your program passes all tests to get credit.
-
-2.  If you are working as a pair, be sure to follow the course
-    instructions so you both get credit.
+Be sure your program passes all tests to get credit.
 
 # Advanced Activity (Optional)
 
